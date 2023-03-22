@@ -24,6 +24,6 @@ Then we can see the block diagram:
 3. $output = \frac{(a+b) \times c}{2}$
 > In the final step, we just need to use `mux` to implement `shift` and we can divide by two.
 
-<img align="center" src="https://github.com/x123y123/CCU-DIC-class/blob/main/lab03b/image/shift.png" width="500" height="200">
+<img align="center" src="https://github.com/x123y123/CCU-DIC-class/blob/main/lab03b/image/shift.png" width="500" height="100">
 
 
