@@ -15,14 +15,15 @@ We can spit the lab for three part:
 > * In this step we need to use the output from first step to implement `9-bits and 8-bits multiplication`.
 > * In following picture, we can use the `4-bits * 4-bits` to understand how to do `9-bits * 8-bits` multiplication.
 
-<img align="center" src="https://github.com/x123y123/CCU-DIC-class/blob/main/lab03b/image/formula.png" width="500" height="350">
+<img align="center" src="https://github.com/x123y123/CCU-DIC-class/blob/main/lab03b/image/formula.png" width="500" height="250">
 
 Then we can see the block diagram:
+
 <img align="center" src="https://github.com/x123y123/CCU-DIC-class/blob/main/lab03b/image/gate-level.png" width="500" height="350">
 
 3. $output = \frac{(a+b) \times c}{2}$
 > In the final step, we just need to use `mux` to implement `shift` and we can divide by two.
 
-<img align="center" src="https://github.com/x123y123/CCU-DIC-class/blob/main/lab03b/image/shift.png" width="500" height="350">
+<img align="center" src="https://github.com/x123y123/CCU-DIC-class/blob/main/lab03b/image/shift.png" width="500" height="200">
 
 
