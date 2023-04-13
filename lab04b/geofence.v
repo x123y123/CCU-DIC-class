@@ -161,22 +161,24 @@ begin
 	if (reset) begin
 		for (int i = 0; i < 6; i = i + 1) begin		
 			srot_done <= 1'b0;
-			s2_x[i] <= 11'b0;	
+			
+            s2_x[i] <= 11'b0;	
 			s2_y[i] <= 11'b0;
 			s2_r[i] <= 11'b0;	
-			s3_x[i] <= 11'b0;	
+			
+            s3_x[i] <= 11'b0;	
 			s3_y[i] <= 11'b0;	
 			s3_r[i] <= 11'b0;
-			s4_x[i] <= 11'b0;	
+			
+            s4_x[i] <= 11'b0;	
 			s4_y[i] <= 11'b0;	
 			s4_r[i] <= 11'b0;
-			s5_x[i] <= 11'b0;	
+			
+            s5_x[i] <= 11'b0;	
 			s5_y[i] <= 11'b0;	
 			s5_r[i] <= 11'b0;
-			s6_x[i] <= 11'b0;	
-			s6_y[i] <= 11'b0;
-			s6_r[i] <= 11'b0;	
-			o_x[i] <= 11'b0;
+			
+            o_x[i] <= 11'b0;
 			o_y[i] <= 11'b0;
 			o_r[i] <= 11'b0;
 		end
